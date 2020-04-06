@@ -1,0 +1,64 @@
+{
+  "locations": [
+    {
+      "city": "Kamloops",
+      "list_image": "kamloops",
+      "room1_type": "Two Queens",
+      "room2_type": "Jaccuzi",
+      "room3_type": "Suite",
+      "hotel_image": "sandman",
+      "room1_img": "qtpn",
+      "room2_img": "ejcn",
+      "room3_img": "kspn",
+      "room1_rate": "129/night",
+      "room2_rate": "199/night",
+      "room3_rate": "139/night",
+      "description": "Kamloops is a Canadian city in British Columbia, where the North and South Thompson rivers meet. Sun Peaks Resort’s hiking trails, bike park and numerous ski runs lie to the northeast. Cougars and bears inhabit the British Columbia Wildlife Park east of town. West, above Kamloops Lake are clay hoodoos (or spires). The riverside Secwepemc Museum & Heritage Park features the remains of a 2,000-year-old village."
+    },
+    {
+      "city": "Kelowna",
+      "list_image": "kelowna",
+      "hotel_image": "plaza",
+      "room1_type": "King",
+      "room2_type": "Jaccuzi",
+      "room3_type": "Two Queens",
+      "room1_img": "plazaroom",
+      "room2_img": "plazaejcn",
+      "room3_img": "plazaqtpn",
+      "room1_rate": "109/night",
+      "room2_rate": "179/night",
+      "room3_rate": "119/night",
+      "description": "Kelowna is a city in the south of Canada’s British Columbia province. It’s in the Okanagan Valley, on the eastern shore of Okanagan Lake, surrounded by provincial parks, pine forest, vineyards, orchards and mountains. Its downtown area incorporates waterfront City Park and a lakeside cultural district. More than 20 local vineyards offer wine tours and tastings."
+    },
+    {
+      "city": "Vancouver",
+      "list_image": "vancouver",
+      "hotel_image": "ramada",
+      "room1_type": "King",
+      "room2_type": "Jaccuzi",
+      "room3_type": "Two Queens",
+      "room1_img": "ramadaroom",
+      "room2_img": "ramadaejcn",
+      "room3_img": "ramadaqtpn",
+      "room1_rate": "99/night",
+      "room2_rate": "149/night",
+      "room3_rate": "119/night",
+      "description": "Vancouver, a bustling west coast seaport in British Columbia, is among Canada’s densest, most ethnically diverse cities. A popular filming location, it’s surrounded by mountains, and also has thriving art, theatre and music scenes. Vancouver Art Gallery is known for its works by regional artists, while the Museum of Anthropology houses preeminent First Nations collections"
+    },
+    {
+      "city": "Revelstoke",
+      "list_image": "revelstoke",
+      "hotel_image": "skiing",
+      "room1_type": "King",
+      "room2_type": "Jaccuzi",
+      "room3_type": "Pres.",
+      "room1_img": "mountroom",
+      "room2_img": "mountejcn",
+      "room3_img": "mountpres",
+      "room1_rate": "139/night",
+      "room2_rate": "189/night",
+      "room3_rate": "149/night",
+      "description": "A majestic outdoor playground surrounded by the Monashee and Selkirk mountain ranges, Revelstoke is one of BC's most popular vacation destinations. Hailed as \"the original mountain town\", visitors come from all around the country to enjoy its endless options for skiing, heli-skiing, hiking, camping, golfing, and more."
+    }
+  ]
+}

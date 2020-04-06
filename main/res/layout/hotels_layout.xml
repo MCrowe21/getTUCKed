@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/image_fullsize"
+        android:layout_width="0dp"
+        android:layout_height="289dp"
+        android:contentDescription="@string/fullsizeimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textV_descript"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textV_name"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <TextView
+        android:id="@+id/textV_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_fullsize" />
+
+    <ImageView
+        android:id="@+id/room1_img"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:contentDescription="@string/roompic1"
+        android:focusable="true"
+        android:onClick="room_click"
+        app:layout_constraintBottom_toBottomOf="@+id/room2_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/room2_img"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="55dp"
+        android:clickable="true"
+        android:contentDescription="@string/roompic2"
+        android:focusable="true"
+        android:onClick="room_click"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/room3_img"
+        app:layout_constraintStart_toEndOf="@+id/room1_img"
+        app:srcCompat="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/room3_img"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:contentDescription="@string/roompic3"
+        android:focusable="true"
+        android:onClick="room_click"
+        app:layout_constraintBottom_toBottomOf="@+id/room2_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textVRoom1_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/room1_img"
+        app:layout_constraintEnd_toEndOf="@+id/room1_img"
+        app:layout_constraintStart_toStartOf="@+id/room1_img" />
+
+    <TextView
+        android:id="@+id/textVRoom2_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/room2_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textVRoom3_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/room3_img"
+        app:layout_constraintEnd_toEndOf="@+id/room3_img"
+        app:layout_constraintStart_toStartOf="@+id/room3_img" />
+
+    <TextView
+        android:id="@+id/textVroom1_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/room1_img"
+        app:layout_constraintStart_toStartOf="@+id/room1_img"
+        app:layout_constraintTop_toBottomOf="@+id/room1_img" />
+
+    <TextView
+        android:id="@+id/textVroom2_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/room2_img" />
+
+    <TextView
+        android:id="@+id/textVroom3_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/room3_img"
+        app:layout_constraintTop_toBottomOf="@+id/room3_img" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
